@@ -1,0 +1,14 @@
+{
+  "name": "pstextviewer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline, AST-powered PowerShell message explorer",
+  "scripts": {
+    "test": "node --test tests/extractor.test.cjs tests/model.test.cjs",
+    "test:browser": "playwright test",
+    "check": "node --check web/app.js && node --check web/model.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+out/
+test-results/
+playwright-report/
+PSTextViewer.html
+pstextmap.json
+pstextviewer-review.csv
+pstextviewer-review.json
+.env
+.env.*
+.npmrc
